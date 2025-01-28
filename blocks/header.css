@@ -1,0 +1,32 @@
+/* Header */
+.header {
+  position: absolute;
+  width: 254.84px;
+  height: 68.94px;
+  left: 513px;
+  top: 34px;
+  text-align: center;
+}
+
+.header__logo {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 20px;
+}
+
+.header__title {
+  line-height: 1.2;
+  width: 254.84px;
+  height: 14.94px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 54px;
+  left: 0;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0 auto;
+  text-align: center;
+}
