@@ -41,16 +41,6 @@
   align-items: center;
 }
 
-.lead__rectangle {
-  position: absolute;
-  width: 984px;
-  height: 615px;
-  left: 148px;
-  top: 562px;
-  background: #000000;
-  mix-blend-mode: hue;
-}
-
 .lead__image {
   width: 984px;
   height: 615px;
