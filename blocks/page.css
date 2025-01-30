@@ -1,3 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* Tamaño de pantalla grande (1280px) */
 @media (min-width: 1025px) {
   .page {
@@ -5,9 +13,9 @@
     width: 1280px;
     height: 2008px;
     background: #2a2c2f;
-
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   .content {
     display: flex;
