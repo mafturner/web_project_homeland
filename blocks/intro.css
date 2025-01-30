@@ -1,17 +1,12 @@
 /* intro Section */
 .intro {
-  position: relative;
   width: 830px;
   height: 607px;
-  left: 148px;
-  top: 1269px;
 }
 
 .intro__title {
   width: 830px;
   height: 173.92px;
-  right: 302px;
-  top: 1269px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -19,15 +14,13 @@
   line-height: 58px;
   /* or 107% */
   color: #ffffff;
-  margin: 0 auto;
+  margin: 92px 0 39.98px;
 }
 
 .intro__quote {
   /* or 107% */
   width: 738px;
   height: 135.66px;
-  right: 394px;
-  top: 1482.91px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -35,15 +28,13 @@
   line-height: 34px;
   /* or 142% */
   color: #ffffff;
-  margin-left: 0;
+  margin: 0 0 10px;
 }
 
-.intro__quote cite {
+.intro__cite {
   /* __text */
   width: 732px;
   height: 33.91px;
-  right: 400px;
-  top: 1628.56px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -52,14 +43,13 @@
   /* identical to box height, or 142% */
   text-align: right;
   color: #ffffff;
+  margin: 0 0 31.99px;
 }
 
 .intro__text {
   /* __text */
   width: 722px;
   height: 181.54px;
-  right: 410px;
-  top: 1694.46px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -67,4 +57,5 @@
   line-height: 163%;
   /* or 26px */
   color: #ffffff;
+  margin: 0 0 92px;
 }

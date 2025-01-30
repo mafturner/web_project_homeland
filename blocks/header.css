@@ -3,30 +3,25 @@
   position: absolute;
   width: 254.84px;
   height: 68.94px;
-  left: 513px;
   top: 34px;
+  bottom: 1905.06px;
+  left: 513px;
   text-align: center;
 }
 
 .header__logo {
-  position: relative;
+  position: absolute;
   width: 32px;
   height: 32px;
-  top: 0;
-  left: 20px;
+  left: 111.42px;
+  top: 0px;
+  bottom: 0px;
 }
 
 .header__title {
-  line-height: 1.2;
+  position: absolute;
   width: 254.84px;
   height: 14.94px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  top: 54px;
   left: 0;
-  color: #ffffff;
-  white-space: nowrap;
-  margin: 0 auto;
-  text-align: center;
+  top: 54px;
 }
