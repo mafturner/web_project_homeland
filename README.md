@@ -14,7 +14,7 @@ Este proyecto es un ejercicio retador para quienes inician desde 0 en el desarro
   ## ## Proyecto en Vivo
 
   Puedes visualizar el proyecto desplegado en el siguiente enlace:  
-   [Tripleten web_project_homeland] https://github.com/mafturner/web_project_homeland.git
+   [Tripleten web_project_homeland] https://mafturner.github.io/web_project_homeland/
 
   ### ## Áreas de oportunidad
 
