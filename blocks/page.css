@@ -1,49 +1,25 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/* Tamaño de pantalla grande (1280px) */
-@media (min-width: 1025px) {
   .page {
-    position: relative;
-    width: 1280px;
-    height: 2008px;
-    background: #2a2c2f;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-color: #2a2c2f;
+    max-width: 1280px;
+    min-height: 2008px;
+    font-family: "Inter";
   }
-  .content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 194px;
-    left: 148px;
-    width: 100%;
-    flex-grow: 1;
-  }
-}
 
-/* Tamaño de pantalla mediana (768px) */
-@media (min-width: 481px) and (max-width: 1024px) {
-  .page {
-    position: relative;
-    width: 768px;
-    height: 1742px;
-    background: #2a2c2f;
+  @media screen and (max-width: 1024px) {
+    .page {
+      width: 768px;
+      height: 1742px;
+      background-color: #2a2c2f;
+      font-family: "Inter";
+    }
   }
-}
 
-/* Tamaño de pantalla pequeña (320px) */
-@media (max-width: 480px) {
-  .page {
-    position: relative;
-    width: 320px;
-    height: 1705px;
-    background: #2a2c2f;
+  @media screen and (max-width: 544px) {
+    .page {
+      width: 320px;
+      height: 1705px;
+      background-color: #2a2c2f;
+      font-family: "Inter";
+    }
   }
 }
