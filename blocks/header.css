@@ -1,70 +1,88 @@
 .header {
-  width: 90%;
-  max-width: 254.84px;
-  height: 68.94px;
+  width: 984px;
+  margin: 0 auto;
 }
 
 .header__logo {
-  width: 32px;
-  height: 32px;
-  top: 34px;
-  left: 624.42px;
-  position: absolute;
-  flex-wrap: wrap;
+  margin: 30px auto 0px;
+  width: 254px;
 }
 
 .header__title {
-  max-width: 254.84px;
-  height: 14.94px;
-  top: 88px;
-  left: 513px;
-  position: absolute;
-  flex-wrap: wrap;
+  margin: 10% auto 0px;
+
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.header__subtitle {
+  margin: 30px auto 0px;
+  width: 720px;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+.header__image {
+  width: 984px;
+  margin: 64px auto;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 984px) {
+  .header {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .header__image {
+    width: 100vw;
+    margin: 64px auto;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 90%;
-    max-width: 254px;
-    height: 66px;
+    width: 100vw;
+    margin: 0 auto;
   }
-
-  .header__logo {
-    width: 32px;
-    height: 30px;
-    top: 30px;
-    left: 368px;
-  }
-
   .header__title {
-    width: 254.84px;
-    height: 14.09px;
-    top: 81.16px;
-    left: 256.58px;
-    position: absolute;
-    flex-wrap: wrap;
+    font-size: 75px;
+    line-height: 1.5;
+  }
+  .header__subtitle {
+    width: 100vw;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .header__image {
+    width: 100vw;
+    margin: 30px auto;
   }
 }
 
 @media screen and (max-width: 544px) {
   .header {
-    width: 90%;
-    max-width: 188px;
-    height: 52px;
+    width: 100vw;
+    margin: 0 auto;
   }
   .header__logo {
-    width: 23.69px;
-    height: 23.77px;
-    top: 20px;
-    left: 148.16px;
+    margin: 0 auto 0px;
+    width: 188px;
   }
-
   .header__title {
-    width: 188.62px;
-    height: 11.1px;
-    top: 60.3px;
-    left: 65.59px;
-    position: absolute;
-    flex-wrap: wrap;
+    margin: 50px auto 0px;
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .header__subtitle {
+    width: 100vw;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .header__image {
+    width: 100vw;
+    margin: 40px auto;
   }
 }
